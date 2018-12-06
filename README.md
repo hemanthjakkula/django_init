@@ -9,4 +9,16 @@ Basic intorduction and conncetions.
 * Run "python manage.py migrate".
 * Now all the changes will be done.
 * Hola you have attached mysql with Django.
+---------------------------------------------------------------
+* Now create a model in models.py file in your app
+* Add your App to installed apps in settings.py file to sync your db.
+* Then run 'python manage.py makemigrations'.
+* now you can make use of django admin to create things
+
+------------------------------------------------------------------
+* adding templates
+* create template folder in root of your folder
+*add a html file, urls.py, views.py and make the necessary changes 
+* add templates path in the setting and you are a go
+
 
